@@ -37,7 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'newsletter'
+    'newsletter',
+    'homepage'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': 'root',
-        'PASSWORD': 'root'
+        'USER': 'dmsgrd',
+        'PASSWORD': 'Fotoramme0'
     }
 }
 
@@ -103,3 +104,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')

@@ -6,7 +6,6 @@ from .forms import SignUpForm
 def home(request):
     title = "Dmsgrd"
 
-
     form = SignUpForm()
     context = {
         "template_title": title,
