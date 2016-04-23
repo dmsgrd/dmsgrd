@@ -1,0 +1,142 @@
+p {
+    color:#3c4044;
+    font-family:
+    font-size:
+}
+div div a {
+    display:block;
+    text-align:center;
+    margin:auto;
+}
+h1 {
+    color:#3c4044;
+    margin:auto;
+    padding-left:20px;
+}
+h2 {
+    text-align:center;
+}
+h3 {
+    text-align:center;
+}
+h4 {
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:20px;
+}
+
+h5 {
+    position:relative;
+    margin-bottom: 2em;
+    margin-top:0.2em;
+
+}
+h6 {
+    float:right;
+    color:#e4e6e7;
+    margin-right:20px;
+    margin-top:20px;
+}
+ul {
+    margin:0px 5px 0px 15px;
+    padding:0px;
+}
+img {
+    display:block;
+    max-width:200px;
+    max-height:300px;
+    width:auto;
+    height:auto;
+    border:0px solid black;
+    border-radius:5px;
+    margin:auto;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+#header {
+    z-index:1;
+    width:;
+    height: 60px;
+    background-color:#3c4044;
+    margin-top:-5px;
+    border-radius:5px;
+}
+#footer {
+    height: 60px;
+    background-color:#3c4044;
+    margin-bottom:-5px;
+    border-radius:5px;
+    clear:both;
+    position:relative;
+}
+#left {
+    background-color:#e4e6e7;
+    position:relative;
+    clear:both;
+    margin-top:3px;
+    margin-bottom:3px;
+    border-radius:3px;
+    padding:20px 20px 20px 20px;
+    bottom: 0px
+}
+#return_button {
+    display:inline-block;
+    height:3em;
+    width:10em;
+    background-color:#e4e6e7;
+    border-radius:0.5em;
+    border:1px solid black;
+    margin-top:0.7em;
+    padding:0.7em 0.7em 2em 0.7em;
+}
+#contact {
+    text-align:center;
+}
+#about {
+    font-weight:bold;
+}
+.line {
+    border:1px dashed #3c4044;
+    margin:1.3em -0.5em 1.3em -0.5em;
+}
+.links {
+    margin-top:20px;
+    margin-bottom:20px
+    text-size:14;
+    color:#2d5bb9;
+    text-weight:bold;
+
+}
+.links:hover {
+    text-decoration:none;
+    color:#193366
+}
+.spacer {
+    height:20px;
+    width:;
+    margin:0px;
+}
+
+.place {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.line-cover {
+    background-color:white;
+    height:40px;
+    margin:auto;
+    padding:0px;
+    margin-top:-40px;
+}
+#experience {
+    width:149px;
+}
+#education {
+    width:140px;
+}
+#skills {
+    width:68px;
+}
+#interests {
+    width:115px
+}
