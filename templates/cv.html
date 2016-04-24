@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>{{ template_title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="../static/css/cv.css" />
+    {% load staticfiles %}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/cv.css' %}" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="container" id="header">
-    <a href="dmsgrd.dk">
+    <a href="/">
         <div id="return_button">
             <h5>Go to <strong>dmsgrd.dk</strong></h5>
         </div>
@@ -39,7 +41,7 @@
             </p>
             <div class="line"></div>
             <div class="links">
-                <a src="www.dmsgrd.dk" class="links">www.dmsgrd.dk</a>
+                <a src="/" class="links">www.dmsgrd.dk</a>
                 <a src="www.linkedin.com/pub/jakob-damsgaard/50/540/282" class="links">www.linkedin.com/pub/jakob-damsgaard/50/540/282</a>
             </div>
         </div>
